@@ -18,7 +18,7 @@ def set_seed(seed):
     torch.backends.cudnn.deterministic = True
     torch.backends.cudnn.benchmark = False
 
-# 输入图片路径、掩码路径，高、宽，加载图片
+
 class Datases_loader(Dataset):
     def __init__(self, filepath='E:\dataset\Crack3238', mode='test', h=256, w=256):
         super().__init__()
