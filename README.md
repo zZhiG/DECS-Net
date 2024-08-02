@@ -17,7 +17,16 @@ We have made improvements based on [previous work](https://doi.org/10.1016/j.aut
 <img src="FFM.png" width="600px">
 </div>
 
-For more details, please refer to our [paper](). If you find our work helpful, please cite us:
+For more details, please refer to our [paper](https://doi.org/10.1016/j.eswa.2024.124950). If you find our work helpful, please cite us:
 
 ```
+@article{ZHANG2024124950,
+title = {A dual encoder crack segmentation network with Haar wavelet-based high-low frequency attention},
+journal = {Expert Systems with Applications},
+pages = {124950},
+year = {2024},
+issn = {0957-4174},
+doi = {10.1016/j.eswa.2024.124950},
+author = {Jianming Zhang and Zhigao Zeng and Pradip Kumar Sharma and Osama Alfarraj and Amr Tolba and Jin Wang},
+}
 ```
