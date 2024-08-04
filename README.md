@@ -14,7 +14,7 @@ We have made improvements based on [previous work](https://doi.org/10.1016/j.aut
 2. We have further improved the feature fusion module. Considering the issue of feature misalignment and mismatch, we first use a convolution to adjust. Then design cross-domain fusion module to perform deep fusion between features.
 
 <div align=center>
-<img src="" width="600px">
+<img src="FFM.png" width="600px">
 </div>
 
 For more details, please refer to our [paper](https://doi.org/10.1016/j.eswa.2024.124950). If you find our work helpful, please cite us:
