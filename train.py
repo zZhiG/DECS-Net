@@ -124,7 +124,7 @@ def train():
 
             writer.add_scalar('Train/Loss', loss.item(), total_step)
 
-        print('epoch:{}--avg loss:{}--lr:{}'.format(it, avg_loss // total_step, now_lr))
+        print('epoch:{}--avg loss:{}--lr:{}'.format(it, avg_loss / total_step, now_lr))
 
         if it % save_epoch == 0:
             Net.eval()
