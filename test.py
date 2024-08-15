@@ -2,7 +2,7 @@ import torch
 import numpy as np
 
 from src.DECSNet import DECSNet
-from datasets.loader import dataloader
+from datasets.loader import DatasetLoader
 from torch.utils.data import DataLoader
 
 
@@ -13,7 +13,7 @@ ckp = torch.load('example.pth')
 Net.load_state_dict(ckp['net'])
 
 d = dataloader()
-train_loader = DataLoader(d, batch_size=2, shuffle=False)
+train_loader = DatasetLoader(d, batch_size=2, shuffle=False)
 
 for idx, (img, lab) in enumerate(train_loader):
     img = img.cuda()
