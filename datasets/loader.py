@@ -19,7 +19,7 @@ def set_seed(seed):
     torch.backends.cudnn.benchmark = False
 
 
-class Datases_loader(Dataset):
+class DatasetLoader(Dataset):
     def __init__(self, filepath='E:\dataset\Crack3238', mode='test', h=256, w=256):
         super().__init__()
         self.filepath = filepath
