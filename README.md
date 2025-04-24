@@ -17,7 +17,9 @@ We have made improvements based on [previous work](https://doi.org/10.1016/j.aut
 <img src="FFM.png" width="600px">
 </div>
 
-For more details, please refer to our [paper](https://doi.org/10.1016/j.eswa.2024.124950). If you find our work helpful, please cite us:
+For more details, please refer to our [paper](https://doi.org/10.1016/j.eswa.2024.124950). The trained model weights has been uploaded to [Google Drive](https://drive.google.com/drive/folders/1B3QmAmUcScrGG3t-uUh-Ux5CzFW8qkMK).
+
+If you find our work helpful, please cite us:
 
 ```
 @article{ZHANG2024124950,
